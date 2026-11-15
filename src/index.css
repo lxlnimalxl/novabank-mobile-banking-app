@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ibank-primary: #3629B7;
+  --color-ibank-primary-2: #5655B9;
+  --color-ibank-primary-3: #A8A3D7;
+  --color-ibank-bg: #F2F1F9;
+  --color-ibank-dark: #343434;
+  --color-ibank-grey: #898989;
+  --color-ibank-light-grey: #989898;
+  --color-ibank-border: #E0E0E0;
+  --color-ibank-white: #FFFFFF;
+
+  --color-ibank-coral: #FF4267;
+  --color-ibank-blue: #0890FE;
+  --color-ibank-amber: #FFAF2A;
+  --color-ibank-teal: #52D5BA;
+  --color-ibank-orange: #FB6B18;
+
+  --font-sans: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  background-color: #0F172A; /* Elegant dark background for desktop showcase framing */
+  color: #343434;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Custom Scrollbar for inner mobile frames */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
